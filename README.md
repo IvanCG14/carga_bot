@@ -57,23 +57,23 @@ ros2 launch carga_bot gazebo.launch.py \
 
 Iniciar mapeo:
 ```bash
-ros2 launch bcr_bot mapping.launch.py
+ros2 launch carga_bot mapping.launch.py
 ```
 
 Uso de teleop twist keyboard para mover el robot:
 ```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/bcr_bot/cmd_vel
+ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/carga_bot/cmd_vel
 ```
 
 Guardar mapa:
 ```bash
 cd src/carga_bot/config
-ros2 run nav2_map_server map_saver_cli -f bcr_map
+ros2 run nav2_map_server map_saver_cli -f carga_map
 ```
 
 ### Nav2 con carga_bot
 
 Uso de Nav2:
 ```bash
-ros2 launch bcr_bot nav2.launch.py
+ros2 launch carga_bot nav2.launch.py
 ```
