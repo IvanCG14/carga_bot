@@ -21,13 +21,6 @@ rosdep install --from-paths src --ignore-src -r -y
 colcon build --packages-select carga_bot
 ```
 
-### Binary Install
-To install BCR bot in the binaries:
-
-```bash
-sudo apt-get install ros-humble-bcr-bot
-```
-
 ### Run
 
 To launch the robot in Gazebo,
