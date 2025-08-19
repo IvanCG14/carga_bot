@@ -39,7 +39,7 @@ RUN apt-get install --no-install-recommends -yqq \
 SHELL ["/bin/bash", "-c"]
 
 # Target workspace for ROS2 packages
-ARG WORKSPACE=/root/ros2_ws
+ARG WORKSPACE=/root/sim_ws
 
 # Add target workspace in environment
 ENV WORKSPACE=$WORKSPACE
