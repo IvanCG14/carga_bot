@@ -4,11 +4,6 @@
 	<version>1.0.2</version>
 	<description>carga_bot</description>
 
-	<maintainer email="gaurav@blackcoffeerobotics.com">Gaurav Gupta</maintainer>
-	<maintainer email="devanshu@blackcoffeerobotics.com">Devanshu Sharma</maintainer>
-	<maintainer email="angelo@blackcoffeerobotics.com">Angelo Antu</maintainer>
-	<license>Apache License 2.0</license>
-
 	<buildtool_depend>ament_cmake</buildtool_depend>
 
 	<exec_depend>ament_index_python</exec_depend>
